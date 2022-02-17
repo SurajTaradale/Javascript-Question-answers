@@ -17,7 +17,11 @@
     </tr>
      <tr>
       <th >3</th>
-      <td><a href="#que3">What is variable and whar are the three different variable type?</a></td>
+      <td><a href="#que3">What is variable and rules of variables?</a></td>
+    </tr>
+    <tr>
+      <th >4</th>
+      <td><a href="#que4">Explain the var variable?</a></td>
     </tr>
     </tbody>
 </table>
@@ -90,15 +94,26 @@
   </table>
 </div>
 <div class="common" id="que3" >
-  <h3>3. What is variable and whar are the three different variable type?</h3>
+  <h3>3. What is variable and rules of variables?</h3>
   <ul>
     <li>Varialbe used to store data value</li>
     <li>we can change data value.</li>
+    <li>javascript variables are flexible we can store string, number, decimal numbers</li>
   </ul>
-  <p>There are three type of variable in javascript</p>
+  <p>Rules of javascript variable </p>
   <ol>
-    <li>var</li>
-    <li>let</li>
-    <li>const</li>
+    <li>Variable name start with a letter, or underscore(_), or doller($).</li>
+    <li>Variable names cannot contain spaces.</li>
+    <li>Declare JavaScript variables with var,let, or const.</li>
   </ol>
+</div>
+<div class="common" id="que4" >
+  <h3>4. Explain the var variable?</h3>
+  <ul>
+    <li>var variable store value like number, string or decimal number.</li>
+    <li>var variable declares a function-scoped or globally-scoped.</li>
+  </ul>
+  <p>Syntax</p>
+  <span>var "variableName";</span><br/>
+  <span>var "variableName" = "value"</span> 
 </div>
