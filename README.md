@@ -116,8 +116,9 @@
   <p>Syntax</p>
   <span>var "variableName";</span><br/>
   <span>var "variableName" = "value"</span>
-  <code>
-    
+  <p>Example : </P>
+  
+  ```
     //Goble Scope
     var studentAge = 25;
     function GetAge(){
@@ -127,7 +128,10 @@
     }
     GetAge()
     console.log("GobleScope "+studentAge)
-   
-    
-  </code>
+  ```
+  ``` 
+  OutPut :
+  FunctionScope 20
+  GobleScope 25
+  ```
 </div>
