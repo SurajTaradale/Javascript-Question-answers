@@ -110,10 +110,24 @@
 <div class="common" id="que4" >
   <h3>4. Explain the var variable?</h3>
   <ul>
-    <li>var variable store value like number, string or decimal number.</li>
+    <li>var variable is used to store number, string or decimal number.</li>
     <li>var variable declares a function-scoped or globally-scoped.</li>
   </ul>
   <p>Syntax</p>
   <span>var "variableName";</span><br/>
-  <span>var "variableName" = "value"</span> 
+  <span>var "variableName" = "value"</span>
+  <code>
+    
+    //Goble Scope
+    var studentAge = 25;
+    function GetAge(){
+      //Function scope
+      var studentAge = 20;
+      console.log("FunctionScope "+studentAge)
+    }
+    GetAge()
+    console.log("GobleScope "+studentAge)
+   
+    
+  </code>
 </div>
