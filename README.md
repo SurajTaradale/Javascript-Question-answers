@@ -116,6 +116,8 @@
   <p>Syntax</p>
   <span>var "variableName";</span><br/>
   <span>var "variableName" = "value"</span>
+  <p>Multiple variable declare</p>
+  <span> var one = 1, two = 2, three = 3 ;
   <p>Example : </P>
   
   ```
