@@ -31,6 +31,10 @@
       <th >6</th>
       <td><a href="#que6">Explain the const variable?</a></td>
     </tr>
+     <tr>
+      <th >7</th>
+      <td><a href="#que7">Different Data types in Javascript?</a></td>
+    </tr>
     </tbody>
 </table>
 <div class="common" id="que1" >
@@ -167,7 +171,7 @@
   ```
 </div>
 <div class="common" id="que6" >
-  <h3>5. Explain the const variable?</h3>
+  <h3>6. Explain the const variable?</h3>
   <ul>
     <li>const variable was introduced in 2015.</li>
     <li>const variable is a Block scope.</li>
@@ -190,4 +194,15 @@
   OutPut :
   "TypeError: Assignment to constant variable."
   ```
+</div>
+<div class="common" id="que7" >
+  <h3>7. Different Data types in Javascript?</h3>
+  <br/>
+  <b>Primitive data type</b><br/>
+  1. Number 
+2. String 
+3. Boolean
+4. Undefined
+5. Null
+
 </div>
