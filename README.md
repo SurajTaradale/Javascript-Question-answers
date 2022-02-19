@@ -24,10 +24,13 @@
       <td><a href="#que4">Explain the var variable?</a></td>
     </tr>
     <tr>
-      <th >4</th>
+      <th >5</th>
       <td><a href="#que5">Explain the let variable?</a></td>
     </tr>
-    
+     <tr>
+      <th >6</th>
+      <td><a href="#que6">Explain the const variable?</a></td>
+    </tr>
     </tbody>
 </table>
 <div class="common" id="que1" >
@@ -118,27 +121,73 @@
     <li>var variable is used to store number, string or decimal number.</li>
     <li>var variable declares a function-scoped or globally-scoped.</li>
   </ul>
-  <p>Syntax</p>
+  <b>Syntax</b><br/>
   <span>var "variableName";</span><br/>
-  <span>var "variableName" = "value"</span>
-  <p>Multiple variable declare</p>
-  <span> var one = 1, two = 2, three = 3 ;
-  <p>Example : </P>
+  <span>var "variableName" = "value"</span><br/><br/>
+  <b>Multiple variable declare</b><br/>
+  <span> var one = 1, two = 2, three = 3 ;</span><br/>
+  <br/>
+    <span>Before declare we can use var variable is called <b>hoisting</b></span><br/>
+  <span>Hoisting example below :</span>
   
   ```
-    //Goble Scope
-    var studentAge = 25;
-    function GetAge(){
-      //Function scope
-      var studentAge = 20;
-      console.log("FunctionScope "+studentAge)
-    }
-    GetAge()
-    console.log("GobleScope "+studentAge)
+    a = 10;
+    console.log("value "+a)
+    var a = 10
   ```
   ``` 
   OutPut :
-  FunctionScope 20
-  GobleScope 25
+  value 10
+  ```
+</div>
+<div class="common" id="que5" >
+  <h3>5. Explain the let variable?</h3>
+  <ul>
+    <li>let variable was introduced in 2015.</li>
+    <li>let variable is a Block scope.</li>
+    <li>Declare the let variable before you use it.</li>
+  </ul>
+ <b>Syntax</b><br/>
+  <span>let "variableName";</span><br/>
+  <span>let "variableName" = "value"</span><br/><br/>
+  <b>Multiple variable declare</b><br/>
+  <span> let one = 1, two = 2, three = 3 ;</span><br/>
+  <br/>
+    <span>If use let variable before declaring it gives a error <b>"Cannot access 'variableName' before initialization"</b></span><br/>
+  <span>Example below :</span>
+  
+  ```
+    a = 10;
+    console.log("value "+a)
+    let a = 10
+  ```
+  ``` 
+  OutPut :
+  "ReferenceError: Cannot access 'a' before initialization"
+  ```
+</div>
+<div class="common" id="que6" >
+  <h3>5. Explain the const variable?</h3>
+  <ul>
+    <li>const variable was introduced in 2015.</li>
+    <li>const variable is a Block scope.</li>
+    <li>The const variable value can't changed</li>
+  </ul>
+ <b>Syntax</b><br/>
+  <span>const "variableName";</span><br/>
+  <span>const "variableName" = "value"</span><br/><br/>
+  <b>Multiple variable declare</b><br/>
+  <span> const one = 1, two = 2, three = 3 ;</span><br/>
+  <br/>
+    <span>If we try to change the const variable value it gives a error <b>"TypeError: Assignment to constant variable."</b></span><br/>
+  <span>Example below :</span>
+  
+  ```
+    const name = "suraj"
+    name = "vijay"
+  ```
+  ``` 
+  OutPut :
+  "TypeError: Assignment to constant variable."
   ```
 </div>
