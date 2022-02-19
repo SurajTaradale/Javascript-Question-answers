@@ -23,6 +23,11 @@
       <th >4</th>
       <td><a href="#que4">Explain the var variable?</a></td>
     </tr>
+    <tr>
+      <th >4</th>
+      <td><a href="#que5">Explain the let variable?</a></td>
+    </tr>
+    
     </tbody>
 </table>
 <div class="common" id="que1" >
