@@ -199,10 +199,60 @@
   <h3>7. Different Data types in Javascript?</h3>
   <br/>
   <b>Primitive data type</b><br/>
-  1. Number 
-2. String 
-3. Boolean
-4. Undefined
-5. Null
-
+  <table>
+  <thead>
+	  <tr>
+		<th>NO</th>
+		<th>Data Type</th>
+		<th>Description</th>
+		<th>Example</th>
+	  </tr>
+	</thead>
+	<tbody>
+    <tr>
+		<td>1</td>
+		<td>Number</td>
+		<td>In number data type used to store the numaric values it can be integer or floating number</td>
+		<td>var a = 10;<br/>var b =10.5;</td> 
+	</tr>
+    <tr>
+		<td>2</td>
+		<td>BigInt</td>
+		<td>represent with the Number primitive is 253-1.</td>
+		<td>var bval = BigInt("11111111111111122222222222222222222223333333333");</td> 
+	</tr>
+  <tr>
+		<td>3</td>
+		<td>String</td>
+		<td>In String data type used to store the set of characters.<br/>Always store a string value in single quote or double quote or backtickets</td>
+		<td>var fName = 'james';<br/>var lname ="game";</td> 
+	</tr>
+  <tr>
+    <td>4</td>
+		<td>Boolean</td>
+		<td>Its used to store the true or false value</td>
+		<td>var a = true;<br/>var b = false</td>
+    </tr>
+     <tr>
+    <td>5</td>
+		<td>undefined</td>
+		<td>Its represents not initialized variables</td>
+		<td>var a;<br/>console.log(a)//output:undefined</td>
+    </tr>
+    
+  <tr>
+    <td>6</td>
+    <td>Symbol</td>
+    <td>Its represents unique property key</td>
+    <td>let c = Symbol('hi');</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Null</td>
+      <td>represents the intentional absence of any object value.</td>
+      <td>let d = Null;</td>
+    </tr>
+    
+  </tbody>
+</table>
 </div>
