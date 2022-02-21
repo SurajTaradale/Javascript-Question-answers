@@ -212,7 +212,7 @@
     <tr>
 		<td>1</td>
 		<td>Number</td>
-		<td>In number data type used to store the numaric values it can be integer or floating number</td>
+		<td>number data type used to store the numaric values, it can be integer or floating point number</td>
 		<td>var a = 10;<br/>var b =10.5;</td> 
 	</tr>
     <tr>
@@ -224,7 +224,7 @@
   <tr>
 		<td>3</td>
 		<td>String</td>
-		<td>In String data type used to store the set of characters.<br/>Always store a string value in single quote or double quote or backtickets</td>
+		<td>In String data type used to store the set of characters.<br/>It Always store a string value in single quote or double quote or backtick</td>
 		<td>var fName = 'james';<br/>var lname ="game";</td> 
 	</tr>
   <tr>
