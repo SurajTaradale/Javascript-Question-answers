@@ -35,6 +35,11 @@
       <th >7</th>
       <td><a href="#que7">Different Data types in Javascript?</a></td>
     </tr>
+	  
+     <tr>
+      <th >8</th>
+      <td><a href="#que8">Explain the operator in javascript</a></td>
+    </tr>
     </tbody>
 </table>
 <div class="common" id="que1" >
@@ -281,4 +286,8 @@
   </tbody>
 </table>
 	
+</div>
+<div class="common" id="que8">
+  <h3>8. Explain the operator in javascript</h3>
+  <br/>
 </div>
