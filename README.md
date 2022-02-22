@@ -34,8 +34,7 @@
      <tr>
       <th >7</th>
       <td><a href="#que7">Different Data types in Javascript?</a></td>
-    </tr>
-	  
+    </tr>  
      <tr>
       <th >8</th>
       <td><a href="#que8">Explain the operator in javascript</a></td>
