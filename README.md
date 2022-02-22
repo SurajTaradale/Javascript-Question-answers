@@ -266,29 +266,18 @@
 	  </tr>
 	</thead>
 	<tbody>
-    <tr>
+    	<tr>
 	    <td>1</td>
 	    <td>Object</td>
 	    <td>Its contain key value pair values</td>
-	    <td>var data = {a:1,b:2}</td>
-	    
-    </tr>
-		<tr>
-	    <td>2</td>
-	    <td>Array</td>
-	    <td>Array contains more than one value with a numerical index</td>
-	    <td>var data = [1,2,3,4,5]</td>
-	    
-    </tr>
-			<tr>
-	    <td>2</td>
-	    <td>Array</td>
-	    <td>Array contains more than one value with a numerical index</td>
-	    <td>var data = [1,2,3,4,5]</td>
-	    
-    </tr>
-		
-    
+	    <td>var data = {a:1,b:2}</td>	    
+    	</tr>
+	<tr>
+		<td>2</td>
+		<td>Array</td>
+		<td>Array contains more than one value with a numerical index</td>
+		<td>var data = [1,2,3,4]</td>
+		</tr>
   </tbody>
 </table>
 	
