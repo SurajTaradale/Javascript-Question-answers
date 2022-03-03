@@ -289,4 +289,60 @@
 <div class="common" id="que8">
   <h3>8. Explain the operator in javascript</h3>
   <br/>
+	<h3>Arithmetic Operators : </h3><span> It is used to perform mathematical operations between numeric operands.</span>
+	<table>
+		
+  <thead>
+	  <tr>
+		<th>NO</th>
+		<th>Operators</th>
+		<th>Description</th>
+		<th>Example</th>
+	  </tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>+</td>
+			<td>Used to add two numeric operands</td>
+			<td> var a = 2 + 3;</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>-</td>
+			<td>Used to Subtract two numeric operands</td>
+			<td> var a = 8 + 3;</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>*</td>
+			<td>Used to Multiply two numeric operands</td>
+			<td> var a = 4 * 4;</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>/</td>
+			<td>Used to divide  two numeric operands</td>
+			<td> var a = 4 / 2;</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>%</td>
+			<td>Returns remainder of two operands.</td>
+			<td> var a = 4 % 2;</td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>++</td>
+			<td>Increase operand value by one.</td>
+			<td> var a = 4++;</td>
+		</tr>	
+		<tr>
+			<td>7</td>
+			<td>--</td>
+			<td>Decrease  operand value by one.</td>
+			<td> var a = 4--;</td>
+		</tr>
+		</tbody>
+	</table>
 </div>
